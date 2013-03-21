@@ -1,3 +1,10 @@
+'''
+输入一个字符串，返回其对应的全排列
+例如：
+输入：abc
+输出：abc, acb, bac, bca, cab, cba
+'''
+
 def findAllSequence(pre, array):
     if len(array) == 0:
         print (pre)
